@@ -1,0 +1,234 @@
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			a{text-decoration: none;}
+			div{display: block;}
+			ul li{list-style: none;}
+			.panel{
+				padding-top: 5px;
+			    padding-left: 20px;
+			    padding-right: 20px;
+			    margin-bottom: 10px;
+			    background: #fff;				
+			}
+			.panel-title{
+			    padding: 10px;
+			    font-size: 28px;
+			    font-family: "微软雅黑";
+			    border-bottom: 1px solid #eee;
+			    color: #666;			
+			}
+			.panel-title a{
+				display: inline-block;
+				color: #fff;
+				background-color: #337ab7;
+				border-color: #2e6da4;
+				padding: 4px 5px;
+				font-size: 14px;
+				font-weight: 400;
+				text-align: center;
+				border-radius: 4px;
+				border: 1px solid transparent;
+			}
+			.panel-title img{
+				position: relative;
+				top: 1px;
+				width: 25px;
+				height: 25px;
+			}
+			.panel-title a{
+				float: right;
+			}
+			.panel-title a:hover{background: #2E6DA4;}
+			a span{
+				position: relative;
+				top: -6px;
+				left: -7px;
+			}
+			.panel-body{
+				margin-top: 30px;
+			}
+			.text-line{
+				margin-left:150px;
+				margin-bottom:-5px;
+				font-family: "微软雅黑";
+				font-size: 16px;
+				font-weight: 600;
+				color: #666;
+			}
+			.text-input .productName{
+				color: #999;
+				width: 370px;
+				height: 20px;
+				padding: 6px 12px;
+				font-size: 14px;
+				font-family: "微软雅黑";
+				background-color: #fff;
+				background-image: none;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+				transition:border-color .15s ease-in-out, box-shadow .15s ease-in-out;				
+			}
+			.text-input .productName:focus{
+				border-color: #66afe9;
+				outline: 0;
+				box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);				
+			}
+			.text-input .productName output{
+				display: block;
+				font-size: 14px;	
+			}
+			#firstType{
+				color: #999;
+				height: 35px;
+				padding: 6px 12px;
+				font-size: 14px;
+				font-family: "微软雅黑";
+				background-color: #fff;
+				background-image: none;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+				transition:border-color .15s ease-in-out, box-shadow .15s ease-in-out;	
+			}
+			#firstType:focus{
+				border-color: #66afe9;
+				outline: 0;
+				box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);					
+			}
+			#secondType{
+				color: #999;
+				height: 35px;
+				padding: 6px 12px;
+				font-size: 14px;
+				font-family: "微软雅黑";
+				background-color: #fff;
+				background-image: none;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+				transition:border-color .15s ease-in-out, box-shadow .15s ease-in-out;	
+			}
+			#secondType:focus{
+				border-color: #66afe9;
+				outline: 0;
+				box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);					
+			}
+			.text-input{
+			    position: relative;
+			    top: -27px;
+			    left: 80px;	
+			   	width: 370px;			
+			}
+			.text-line1{
+				margin-left:150px;
+				margin-bottom:-30px;
+				font-family: "微软雅黑";
+				font-size: 16px;
+				font-weight: 600;
+				color: #666;			
+				
+			}
+			.text-line1 .text-input{
+			    position: relative;
+			    width: 256px;
+			    border: 1px solid #ccc;
+			    height: 34px;	
+			    margin-bottom: 20px;
+			    border-radius: 4px;			
+			}
+			.product{
+				color: #999;
+				width: 192px;
+				height: 20px;
+				padding: 6px 12px;
+				font-size: 14px;
+				font-family: "微软雅黑";
+				background-color: #fff;
+				background-image: none;
+				border: none;
+				box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+				transition:border-color .15s ease-in-out, box-shadow .15s ease-in-out;					
+			}
+			.product:focus{
+				border-color: #66afe9;
+				outline: 0;
+				box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);					
+			}
+			.input-price{
+				width: 15px;
+				padding: 7px 12px;
+				font-size: 15px;
+				font-weight: 400;
+				color: #555;
+				text-align: center;
+				background-color: #eee;
+				border-radius: 4px;
+				position: relative;
+				top: -32px;
+				left: 217px;
+			}
+			#picture{
+				padding-top: 7px;
+			}	
+			.textinput{
+				color: #999;
+				width: 370px;
+				height: 120px;
+				padding: 6px 12px;
+				font-size: 14px;
+				font-family: "微软雅黑";
+				background-color: #fff;
+				background-image: none;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075);
+				transition:border-color .15s ease-in-out, box-shadow .15s ease-in-out;					
+			}
+			.textinput:focus{
+				border-color: #66afe9;
+				outline: 0;
+				box-shadow:inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);				
+			}
+			.btn{
+				position: relative;
+				left: 230px;
+				color: #fff;
+				background-color: #337AB7;
+				border-color: #2E6DA4;
+				display: inline-block;
+				padding: 6px 12px;
+				margin-bottom: 0px;
+				font-size: 16px;
+				font-weight: 400;
+				text-align: center;
+				white-space: nowrap;
+				-ms-touch-action: manipulation;
+				-ms-user-select:none;
+				touch-action:manipulation;
+				cursor: pointer;
+				border: 1px solid transparent;
+				border-radius: 4px;	
+				background-image:none;
+				overflow: visible;		
+			}
+			.textinput{
+				overflow: initial;
+				text-decoration: none;
+			}
+			.btn:hover{background:#2E6DA4;}		
+			#previewing{
+				width: 100px;
+				height: 100px;
+				border: 1px solid #999;
+				position: relative;
+				left: 80px;
+    			top: -20px;
+			}
+			#previewing img{
+				width: 100px;
+				height: 100px;
+			}
+			

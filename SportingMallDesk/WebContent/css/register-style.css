@@ -1,0 +1,140 @@
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			div{
+				display: block;
+			}
+			a{text-decoration: none;}
+			.login-top{
+				height: 80px;
+				border-bottom: 1px solid #e6e6e6;
+			}
+			.login-bottom{
+				border-top: 1px solid #e6e6e6;
+				height: 40px;
+			}
+			.login-top img{
+				width: 110px;
+				height: 70px;
+				position: relative;
+				left: 260px;
+			}
+			.login-center{
+				position: relative;
+				width: 100%;
+				height: 780px;
+				background-color:rgb(240, 246, 254);
+			}
+			.center-login{
+				border: 1px solid #eef2f4;
+				position: relative;
+				top: 50px;
+				margin: auto;
+				width: 475px;
+				background-color:white;
+				box-shadow:0px 1px 2px #eee;
+			}
+			#center1{
+				height: 40px;
+				padding: 8px 0;
+				font-size: 25px;
+				font-weight: 700;
+				color: #666;
+				text-align: center;
+				border-bottom: 1px solid #ddd
+			}
+			#center{
+				position: relative;
+				width: 350px;
+				margin: auto;
+				margin-top:25px;
+				height: 40px;
+				border: 1px solid  darkgray;
+			    margin-bottom: 20px;
+			}
+			#center-user{
+				position: relative;
+				width: 350px;
+				margin: auto;
+				margin-top:35px;
+				height: 40px;
+				border: 1px solid  darkgray;
+			    margin-bottom: 20px;
+			}
+			
+			.label img{
+				position:relative;
+			    width: 40px;
+			    height: 40px;   
+			}
+			.content{
+				position: relative;
+				top: -15px;
+				width: 300px;
+				height: 37px;
+				border: none;
+				font-size: 18px;
+				outline: none;	
+			}
+			#center-pwd{
+				position: relative;
+				width: 350px;
+				margin: auto;
+				height: 40px;
+				border: 1px solid darkgray;
+			    margin-bottom: 20px;
+			}
+			.pwd-label img{
+				position:relative;
+			    width: 40px;
+			    height: 40px;   
+			}
+			.pwd-content{
+				position: relative;
+				top: -15px;
+				width: 300px;
+				height: 37px;
+				border: none;
+				font-size: 18px;
+				outline: none;	
+			}
+			.sumbit{
+				margin: auto;
+				margin-top: 30px;
+				margin-bottom: 55px;
+			    display: block;
+			    padding: 6px 0;
+			    width: 350px;
+			    text-align: center;
+			    background: #e4393c;
+			    color: #fff;
+			    font-size: 25px;
+			     outline: none;
+			    border: none;
+			    border-radius: 3px;
+			}
+			.sumbit:hover{background: #C60023;}
+			#error{
+				position: relative;
+				width: 350px;
+				margin: auto;
+				height: 15px;
+				top: 15px;
+				padding: 3px 0 3px 0;
+				border: 1px solid red;
+				background-color: #fde9e9;
+				text-align: center;
+				font-size: 15px;
+				color: red;
+			}
+			.center-bottom{
+				float: right;
+				position: absolute;
+				right: 20px;
+				margin-top: 70px;	
+			}
+			.center-bottom a{
+				color: #666666;
+			}
+			.center-bottom a:hover{color: red;}

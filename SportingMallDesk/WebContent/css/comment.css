@@ -1,0 +1,87 @@
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			div{
+				display: block;
+			}
+			a{text-decoration: none;color: #888888;}
+			a:hover{color: red;}
+			.panel{
+			    padding: 10px;
+			    margin-bottom: 10px;
+			    background: #fff;				
+			}
+			.panel-title{
+				padding: 10px;
+			    font-size: 16px;
+			    border-bottom: 1px solid #eee;
+			    color: #666;
+			    font-weight: 700;				
+			}
+			.panel-body{
+				padding: 10px 0;
+    			overflow: hidden;
+			}
+			.product{
+				background:#EEEEEE;
+			}
+			.text-img{
+				width: 80px;
+				padding: 10px;
+			}
+			.text-img img{
+				width: 80px;
+			    height: 80px;
+			    border: 1px solid #ddd;
+			}
+			.text{
+				height: 105px;
+				width: 600px;
+				float: left;
+				font-size: 15px;
+				color: #666666;
+				position: relative;
+				top: -105px;
+				left: 100px;
+			}	
+			.text span{
+				padding:23px;
+				float: left;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			.comment{
+				margin-top: 5px;
+			}
+			.comment textarea{
+				margin-top: -100px;
+			    width: 890px;
+			    height: 135px;
+			    overflow: hidden;
+			    border-top: solid 1px #a7b5bc;
+			    border-left: solid 1px #a7b5bc;
+			    border-right: solid 1px #ced9df;
+			    border-bottom: solid 1px #ced9df;
+			    padding: 10px;				
+			}
+			.comment a{
+				float: right;
+			    line-height: 30px;
+			    font-size: 14px;
+			    padding: 2px 10px;
+			    display: inline-block;
+			    height: 30px;
+			    border: none;
+			    background-color: #c60023;
+			    font-weight: 700;
+			    color: #fff;
+			    outline: none;
+			    cursor: pointer;
+			    text-decoration: none;				
+			}	
+			.comment textarea:focus{
+				border-color: #66afe9;
+			    outline: 0;
+			    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.6);
+			}					

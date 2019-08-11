@@ -1,0 +1,152 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div{
+				display: block;
+			}
+			a{
+				position: relative;
+				text-decoration:none;
+				color:#999;
+				margin-left: 10px;
+			}
+			ul li{list-style: none;}
+			.body{
+				background-color:  #f6f6f6;
+			}
+			.top a:hover{color: red;}
+			.top{
+				width: 100%;
+				height: 30px;
+			    margin: 0 auto;
+			    background-color:#eee;
+			    line-height: 30px;
+			    font-size: 14px;
+			}
+			.top p{
+				color:#999;
+				position: relative;
+				left: 5px;
+				line-height: 30px;
+				font-size: 14px;
+			}
+			.top p a{
+				position: relative;
+				left: 0px;
+				margin-left: 10px;
+			}
+			.top ul li{
+				list-style: none;
+			}
+			.top ul li a{
+				float: left;
+				position: relative;
+				top: -30px;
+				left: 950px;
+			}
+			.top ul li img{
+				width: 14px;
+				height: 14px;
+				position: relative;
+				top: 2px;
+				margin-right:5px;
+			}
+		    .head{
+				width: 1160px;
+				position: relative;
+				margin: auto;
+			}
+			.main{
+				background-color: #f6f6f6;
+				display: block;
+			}
+			.search-main{
+				position: relative;
+				width: 1160px;
+				height: 120px;
+				margin: auto;
+			}
+			.search-main p{
+				position: relative;
+			    left: 100px;
+			    top: 5px;
+			    width: 110px;
+			    font-size: 36px;
+			    color: #c60023;
+			}
+			.search{
+				width: 550px;
+				padding: 10px;
+			    border: 2px solid #c60023;
+			    font-size: 15px;
+			    outline: none;
+			    font-size: 15px;
+			    position: relative;
+			    top: -32px;
+			    left: 270px;
+			    text-decoration: none;
+			}
+			.search-main .submit{
+				position:relative;
+				left: 832px;
+				top: -73px;
+				display: block;
+    			height: 32px;
+    			width: 80px;
+    			vertical-align: top;
+    			border: none;
+    			background-color: #c60023;
+				text-align: center;
+				outline: none;
+				color: #fff;
+				font-size: 17px;
+                font-weight: 700;
+                padding-top: 10px;
+			}
+			.nav-main{
+				margin-bottom: 15px;
+			    height: 50px;
+			    line-height: 50px;
+			    font-size: 17px;
+			    background: #eee;
+			    color: #888;
+			    border-top: 2px solid #c60023;
+			}
+			.w{
+				width: 1160px;
+			    margin:auto;
+			    position: relative;
+			}
+			.w a{
+				color: #888;
+			    text-decoration: none;
+			    cursor: pointer;
+			}
+			.w span{
+				position: relative;
+				margin-left: 10px;
+			}
+			.w a:hover{color: red;}
+			.personal-main{
+			    width: 1160px;
+			    margin: 0 auto;
+			    position: relative;
+			    overflow: hidden;
+			}
+			.left-con{
+				float: left;
+			    width: 200px;
+			    min-height: 100px;
+			}
+			.right-con{
+			    float: left;
+			    width: 935px;
+			    margin-top: 20px;
+	
+			}
+			.right-con .panel{
+			    padding: 10px;
+			    margin-bottom: 10px;
+			    background: #fff;				
+			}

@@ -1,0 +1,93 @@
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			div{
+				display: block;
+			}
+			a{text-decoration: none;color: #888888;}
+			a:hover{color: red;}
+			.panel{
+			    padding: 10px;
+			    margin-bottom: 10px;
+			    background: #fff;				
+			}
+			.panel-title{
+				padding: 10px;
+			    font-size: 16px;
+			    border-bottom: 1px solid #eee;
+			    color: #666;
+			    font-weight: 700;				
+			}
+			.panel-body{
+				padding: 10px 0;
+    			overflow: hidden;
+			}
+			.address-main{
+			    border-collapse: collapse;
+			    border-spacing: 0;
+			    width: 100%;
+			    background: #fff;
+			    margin-top: 5px;
+			    margin-bottom: 10px;				
+			}
+			.address-main tr th{
+				font-size: 14px;
+			    padding: 10px;
+			    overflow: hidden;
+			    text-overflow: ellipsis;
+			    word-break: break-all;				
+				border: 1px solid #dcdee3;
+				background: #ebecf0;
+				color: #666;				
+			}
+			.address-main tr td{
+				font-size: 13px;
+				padding: 10px;
+				text-align: center;
+				border: 1px solid #dcdee3;
+			}
+			.address-main tr:hover{background: #FAFAFA;}
+			.panel-body .text-label{
+	    		display: inline-block;
+	    		padding-left:10px;
+    			width: 80px;	
+    			font-size: 14px;
+    			line-height: 40px;
+			}
+			.text-line input{
+			    padding: 0 5px;
+			    height: 30px;
+			    line-height: 30px;
+			    outline: none;
+			    margin-right: 10px;				
+			}
+			.text-line #province{
+			    padding: 0 5px;
+			    height: 25px;
+			    outline: none;
+			    margin-right: 10px;				
+			}
+			.text-line #city{
+			    padding: 0 5px;
+			    height: 25px;
+			    outline: none;
+			    margin-right: 10px;				
+			}
+			.text-line .btn{
+				margin-top: 20px;
+			    margin-left: 90px;
+			    height: 30px;
+			    line-height: 30px;
+			    font-size: 13px;
+			    display: inline-block;
+			    padding: 0 20px;
+			    vertical-align: middle;
+			    border: none;
+			    background-color: #c60023;
+			    font-weight: 700;
+			    color: #fff;
+			    outline: none;
+			    cursor: pointer;
+			    text-decoration: none;				
+			}

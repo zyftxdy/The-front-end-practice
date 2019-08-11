@@ -1,0 +1,45 @@
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			div{
+				display: block;
+			}
+			ul li{list-style: none;}
+			a{text-decoration: none;color: #1296db;display: block;}
+			.body{
+				background: #f8f8f8;
+			}
+
+			ul li img{
+				width: 30px;
+				height: 30px;
+				padding: 5px;
+			}
+			ul li i{
+				display: block;
+				font-style: normal;
+			}
+			ul li i:hover{background:#e7e7e7;}
+			ul li span{
+				color: #1296db;
+				font-size: 16px;
+				font-family: "微软雅黑";
+				position: relative;
+				top: -12px;
+				left: -10px;
+			}
+			.nav li{
+				border-bottom: 1px solid #e7e7e7;
+			}
+			ul li a:hover{background:#e7e7e7;}
+			.nav-list li a{
+				padding-left: 30px;
+			}
+			.nav-list li{
+				border: none;
+			}
+			.nav-list img{
+				width: 24px;
+				height: 24px;
+			}

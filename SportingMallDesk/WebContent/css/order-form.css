@@ -1,0 +1,170 @@
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			div{
+				display: block;
+			}
+			ul li{list-style: none;}
+			 .panel{
+			    padding: 10px;
+			    margin-bottom: 10px;
+			    background: #fff;				
+			}
+			.panel-title{
+				padding: 10px;
+			    font-size: 15px;
+			    border-bottom: 1px solid #eee;
+			    color: #666;
+			    font-weight: 700;				
+			}
+			.panel-body{
+				padding: 10px 0;
+    			overflow: hidden;
+			}
+			.order-list .list-header{
+			    background: #eee;
+			    width: 100%;
+			    border-collapse: collapse;
+			    margin-bottom: 20px;
+			    color: #666;
+			    font-size: 13px;
+			}
+			.list-header .list-header-img{
+				width: 15%;
+    			padding: 10px;
+			}
+			.list-header .list-header-info{
+				width: 40%;
+			    padding: 0 10px;
+			    text-align: left;
+			}
+			.list-header .list-header-datils{
+				width: 15%;
+			    text-align: center;	
+			}
+			.list-header .list-header-price{
+			    width: 10%;
+			    text-align: center;				
+			}
+			.list-header .list-header-count{
+			    width: 10%;
+			    text-align: center;					
+			}
+			.list-header .list-header-total{
+			    width: 10%;
+			    text-align: center;					
+			}	
+			.order-list{
+				font-size: 13px;
+			}
+			a{text-decoration: none;}
+			.list-body{
+			    width: 100%;
+			    border-collapse: collapse;
+			    background: #fafafa;
+			    margin-bottom: 20px;				
+			}
+			.list-body tr{
+				border-bottom: 1px  solid #EEEEEE;
+			}
+			.order-info{
+			    background: #eee;
+			    padding: 10px;
+			    font-size: 13px;				
+			}
+			.order-info .order-text{
+			    margin-right: 25px;
+			    color: #999;				
+			}
+			.order-text i{
+				font-style: normal;
+				font-weight: 700;
+			    color: #999;				
+			}
+			.order-text .total{
+			    font-weight: 700;
+			    color: #c60023;
+			    font-size: 14px;
+			}
+			.order-text a{
+ 				font-weight: 700;
+ 				color: #999;
+ 				float: right;			
+			}
+			.order-text a:hover{color: red;}
+			.list-img{
+				width: 80px;
+				padding: 10px;
+			}
+			.list-img img{
+				width: 80px;
+			    height: 80px;
+			    border: 1px solid #ddd;
+			}
+			.list-info{
+				width:45%;
+    			padding: 0 10px;
+			}
+			.list-info a{
+				line-height: 18px;
+				color: #999;
+			    text-decoration: none;
+			    cursor: pointer;
+			}
+			.list-info a:hover{
+				color: red;
+			}
+			.list-datils{
+				width: 15%;
+				color: #666;
+				text-align: center;
+			}
+			.list-datils ul li{
+				padding: 5px;
+			}
+			.list-price{
+				width: 10%;
+				color: #666;
+				text-align: center;
+			}
+			.list-count{
+				width:10%;
+				color: #666;
+    			text-align: center;
+			}
+			.list-total{
+				width:10%;
+   			 	text-align: center;
+   			 	color: #666;
+			}
+			.pagin .message{
+				font-size: 12pt;
+				font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+			}
+			.pagin{
+			    position: relative;
+			    margin-top: 10px;			
+			}
+			.pagin i{
+				font-style: normal;
+				color: #1296db;
+			}
+			.pagin ul li{float: left;}
+			.pagin .paginList{
+				float: right;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+			}
+			.pagin .paginList .paginItem{
+				font-size: 16px;
+				font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+			    padding: 1px 4px 1px 4px;
+			    text-align: center;
+			    line-height: 25px;
+			    color: dimgray;
+			    border-right: 1px solid #ccc;
+			    color: #1296db;
+			}
+			.paginList .paginItem:hover{background: #f9f9f9;}
+			.paginItem a{color: #1296db;}			

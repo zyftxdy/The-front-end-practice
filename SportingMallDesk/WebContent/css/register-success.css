@@ -1,0 +1,91 @@
+		    *{
+		    	margin: 0;
+		    	padding: 0;
+		    }
+		    div{display:block;}
+			a{text-decoration: none;}
+			a{color: #666666;}
+			a:hover{
+				color: red;
+			}
+			.login-top{
+				height: 80px;
+				border-bottom: 1px solid #e6e6e6;
+			}
+			.login-top img{
+				width: 110px;
+				height: 70px;
+				position: relative;
+				left: 260px;
+			}
+			.login-center{
+				position: relative;
+				width: 100%;
+				height: 590px;
+				background-color: mintcream;
+			}
+			.center-login{
+				border: 1px solid #eef2f4;
+				position: relative;
+				top: 30px;
+				margin: auto;
+				width: 1100px;
+				height: 150px;
+				background-color:white;
+				box-shadow:0px 1px 2px #eee;
+			}
+			.success{
+				position: relative;
+				top: 30px;
+				margin: auto;
+				text-align: center;
+				font-size: 25px;
+				color: #555;
+			}
+			.sumbit{
+				margin: auto;
+				position: relative;
+				margin-top: 45px;
+				border: 1px solid #ccc;
+				width:75px;
+				height: 30px;
+				text-align: center;
+			}
+			.sumbit2{
+				margin: auto;
+				position: relative;
+				margin-top: 45px;
+				border: 1px solid #ccc;
+				width:100px;
+				height: 30px;
+				text-align: center;				
+			}
+			.sumbit2 a{
+				position: relative;
+				top: 6px;
+				cursor: pointer;
+				text-decoration: none;
+			}
+			.sumbit a{
+				position: relative;
+				top: 6px;
+				cursor: pointer;
+				text-decoration: none;
+			}
+			.bottom{
+				width:100%;
+				background-color:mintcream ;
+			}
+			.lianjie{
+				display: block;
+				margin: auto;
+			}
+			.lianjie a{
+				color: #888;
+			}
+			.bottom-lianjie{
+				padding-top: 20px;
+				text-align: center;
+				color: #888;
+			}
+			.bottom-lianjie a:hover{color: #D58717;}

@@ -1,0 +1,133 @@
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			a{text-decoration: none;}
+			div{display: block;}
+			ul li{list-style: none;}
+			.panel{
+				padding-top: 5px;
+			    padding-left: 20px;
+			    padding-right: 20px;
+			    margin-bottom: 10px;
+			    background: #fff;				
+			}
+			.panel-title{
+			    padding: 10px;
+			    font-size: 28px;
+			    font-family: "微软雅黑";
+			    border-bottom: 1px solid #eee;
+			    color: #666;			
+			}
+			.panel-body{
+				padding: 10px;
+				margin-top: 10px;
+			}				
+			.table-list{
+				width: 1060px;
+				position: relative;
+				min-height: 1px;				
+				margin: auto;
+			}
+			.product-list img{
+				width: 80px;
+				height: 80px;
+				border: 1px solid #CCCCCC;
+			}
+			.product-list{
+				width: 100%;
+				max-width: 100%;
+				margin-bottom:5px;
+				background-color: transparent;
+				border-spacing: 0;
+				border-collapse: collapse;
+			}
+			.product-list tr th{
+				border: 2px solid #ddd;
+				padding:5px;
+				vertical-align: bottom;
+				text-align: left;
+				font-family: "微软雅黑";
+				font-size: 14px;
+			}
+			.product-list tbody tr{
+				background-color:#f9f9f9;
+			}
+			.product-list tbody tr td{
+				border: 1px solid #ddd;
+				padding: 5px;
+				font-size: 14px;
+				font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+				text-align: center;
+			}
+			tbody tr:nth-child(even){
+				background: #fff;
+			}	
+			tbody tr td a{
+				color: #1296db;
+				padding-left: 5px;
+			}
+			tbody tr td a:hover{color: red;}					
+			.text-center{
+				text-align: center;
+				font-size: 14px;
+				font-weight: 400;
+				}
+			.text-line{
+				width: 370px;
+				margin-left:100px;
+				padding-bottom: 5px;
+			}
+			.text-lable{
+				width: 100px;
+				text-align: right;
+				font-size: 16px;
+				font-weight: 700;	
+				color: black;			
+			}
+			.text{
+				position: relative;
+				top: -18px;
+				left: 110px;
+				width: 250px;
+				font-size: 14px;
+				font-weight: 700;
+				color: #666;
+			}
+			.text1{
+				position: relative;
+				top: -24px;
+				left: 110px;
+				width: 250px;
+				font-size: 14px;
+				font-weight: 700;
+				color: #666;				
+			}
+			.text2{
+				position: relative;
+				top: -18px;
+				left: 110px;
+				width: 250px;
+				font-size: 14px;
+				font-weight: 700;
+				color: #666;				
+			}
+			.table-list{
+				margin-top: 10px;
+			}
+			.btn{
+			    display: inline-block;
+			    color:rgb(18, 150, 219);
+			    background-color: rgb(255, 255, 255);
+			    line-height: 20px;
+			    width: 60px;
+			    box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px inset;
+			    padding: 4px 5px;
+			    border-radius: 4px;
+			    border-width: 1px;
+			    border-style: solid;
+			    border-color: rgb(204, 204, 204);
+			    border-image: initial;
+			    overflow: visible;				
+			}
+			.btn:hover{background: rgb(248, 248, 248);}				

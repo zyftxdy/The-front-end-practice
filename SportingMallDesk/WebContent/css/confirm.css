@@ -1,0 +1,400 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div{
+				display: block;
+			}
+			a{
+				position: relative;
+				text-decoration:none;
+				color:#999;
+				margin-left: 10px;
+			}
+			ul li{list-style: none;}
+			.body{
+				background-color:  #f6f6f6;
+			}
+			.top a:hover{color: red;}
+			.top{
+				width: 100%;
+				height: 30px;
+			    margin: 0 auto;
+			    background-color:#eee;
+			    line-height: 30px;
+			    font-size: 14px;
+			}
+			.top p{
+				color:#999;
+				position: relative;
+				left: 5px;
+				line-height: 30px;
+				font-size: 14px;
+			}
+			.top p a{
+				position: relative;
+				left: 0px;
+				margin-left: 10px;
+			}
+			.top ul li{
+				list-style: none;
+			}
+			.top ul li a{
+				float: left;
+				position: relative;
+				top: -30px;
+				left: 950px;
+			}
+			.top ul li img{
+				width: 14px;
+				height: 14px;
+				position: relative;
+				top: 2px;
+				margin-right:5px;
+			}
+		    .head{
+				width: 1160px;
+				position: relative;
+				margin: auto;
+			}
+			.main{
+				background-color: #f6f6f6;
+				display: block;
+			}
+			.search-main{
+				position: relative;
+				width: 1160px;
+				height: 120px;
+				margin: auto;
+			}
+			.search-main p{
+				position: relative;
+			    left: 100px;
+			    top: 5px;
+			    width: 110px;
+			    font-size: 36px;
+			    color: #c60023;
+			}
+			.search{
+				width: 550px;
+				padding: 10px;
+			    border: 2px solid #c60023;
+			    font-size: 15px;
+			    outline: none;
+			    font-size: 15px;
+			    position: relative;
+			    top: -32px;
+			    left: 270px;
+			    text-decoration: none;
+			}
+			.search-main .submit{
+				position:relative;
+				left: 832px;
+				top: -73px;
+				display: block;
+    			height: 32px;
+    			width: 80px;
+    			vertical-align: top;
+    			border: none;
+    			background-color: #c60023;
+				text-align: center;
+				outline: none;
+				color: #fff;
+				font-size: 17px;
+                font-weight: 700;
+                padding-top: 10px;
+			}
+			.nav-main{
+				margin-bottom: 15px;
+			    height: 50px;
+			    line-height: 50px;
+			    font-size: 17px;
+			    background: #eee;
+			    color: #888;
+			    border-top: 2px solid #c60023;
+			}
+			.w{
+				width: 1160px;
+			    margin:auto;
+			    position: relative;
+			}
+			.w a{
+				color: #888;
+			    text-decoration: none;
+			    cursor: pointer;
+			}
+			.w span{
+				position: relative;
+				margin-left: 10px;
+			}
+			.w a:hover{color: red;}
+			.confirm-w{
+				width: 1080px;
+			    margin: 0 auto;
+			    position: relative;
+			    overflow: hidden;
+			}
+			.confirm-w .panel{
+				margin-bottom: 10px;
+    			overflow: hidden;
+			}
+			.panel .panel-title{
+				font-size: 15px;
+			    font-weight: 700;
+			    line-height: 35px;
+			    height: 35px;
+			    color: #333;
+			    border-bottom: 1px solid #ddd;
+			}
+			.address-item{
+				margin: 20px 20px 0 0;
+			    width: 200px;
+			    float: left;
+			    padding: 5px 8px 2px;
+			    border: 3px dashed #ccc;
+			    cursor: pointer;
+			}
+			.address-item .address-title{
+				font-size: 12px;
+			    color: #666;
+			    padding-bottom: 3px;
+			    border-bottom: 1px solid #ddd;
+			}
+			.address-item .address-details{
+				font-size: 12px;
+				margin-top: 5px;
+			    height: 36px;
+			    overflow: hidden;
+			    color: #666;
+			}
+			.address-item .address-opera{
+				text-align: right;
+    			visibility: hidden;
+			}
+			.address-item .address-opera{
+				font-size: 12px;
+				color: #999;
+			    text-decoration: none;
+			    cursor: pointer;
+			}
+			.address-add{
+				margin: 20px 20px 0 0;
+			    width: 200px;
+			    float: left;
+			    padding: 5px 8px 2px;
+			    border: 3px dashed #ccc;
+			    cursor: pointer;
+			}
+			.address-new{
+				padding: 7px;
+			    text-align: center;
+			    color: #ccc;
+			}
+			.address-add img{
+				 width: 40px;
+				 height: 40px;
+			}
+			.address-add .text{
+				font-size: 13px;
+				color: #999;
+				text-align: center;
+			}
+			.product-con .cart-table th{
+				height: 30px;
+			    line-height: 30px;
+			    border-bottom: 1px dotted #ddd;
+			}
+			.cart-table{
+			    margin-top: 20px;
+				width: 100%;
+			    border-collapse: collapse;
+			    border: 1px solid #ebebeb;		    
+			    margin-bottom: 10px;
+			    height: 40px;
+			    border-top: none;
+			    border-left: none;
+			    border-right: none;
+			}
+			.list-img{
+				width: 80px;
+				padding: 10px;
+			}
+			.list-img img{
+				width: 80px;
+			    height: 80px;
+			    border: 1px solid #ddd;
+			}
+			.cart-table .list-info{
+				width: 250px;
+			}
+			.list-datils ul li{
+				padding: 5px;
+			}
+			.list-datils ul{
+				padding: 10px;
+			}
+			.cart-table .list-datils{
+				width: 100px;
+    			color: #999;
+    			line-height: 18px;
+    			padding: 10px;
+			}
+			.list-info a{
+				line-height: 18px;
+				color: #999;
+			    text-decoration: none;
+			    cursor: pointer;
+			}
+			.list-info a:hover{
+				color: red;
+			}
+			.list-price{
+				width: 100px;
+				text-align: center;
+			}
+			.list-count{
+				width: 200px;
+    			text-align: center;
+			}
+			.list-total{
+				width: 100px;
+   			 	text-align: center;
+   			 	color: #000;
+    			font-weight: 700;
+			}
+			.cart-table td{
+				border-bottom: 1px dotted #ddd;
+			}
+			.sumbit-on{
+				text-align: right;
+   			 	background: #eee;
+			}
+			.sumbit-on .sumbit-total{
+				font-size: 18px;
+			    color: #c60023;
+			    font-weight: 700;
+			    margin-right: 20px;
+			    vertical-align: middle;
+			}
+			.sumbit-on .order-submit{
+				display: inline-block;
+			    padding: 0 20px;
+			    height: 40px;
+			    line-height: 40px;
+			    vertical-align: middle;
+			    border: none;
+			    background-color: #c60023;
+			    font-size: 17px;
+			    font-weight: 700;
+			    color: #fff;
+			    outline: none;
+			    cursor: pointer;
+			    text-decoration: none;
+			}
+			.bottom{
+				width:100%;
+				background-color: #f6f6f6;
+				font-size: 15px;
+			}
+			.lianjie{
+				width: 1060px;
+				display: block;
+				margin: auto;
+			}
+			.bottom-lianjie{
+				padding-top: 60px;
+				text-align: center;
+				color: #888;
+			}
+			#sumbit-total{
+				font-style: normal;
+			}
+			.bottom-lianjie a:hover{color: #D58717;}
+			.address-item.active{border: 3px dashed #C60023;}
+			.address-item:hover{background-color: #eee;}
+			.address-item:hover .address-opera{visibility:visible;}
+			.address-item .address-opera a:hover{color: red;}
+			.address-add:hover{background-color: #eee;}
+						.add-new{
+			    overflow-x: hidden;
+    			overflow-y: auto;
+    			position: fixed;
+			    top: 0;
+			    right: 0;
+			    bottom: 0;
+			    left: 0;
+			    z-index: 1000;
+			    background: rgba(0,0,0,.4);
+			}
+			.new-add{
+				width: 600px;
+				height: 300px;
+			    margin: 50px auto;
+			    background: #fff;
+			    border-radius: 4px;
+			    position: relative;
+    			top: 150px;				
+			}
+			.add-header{
+				position: relative;
+			    padding: 15px;
+			    border-bottom: 1px solid #ccc;
+			    font-size: 10px;
+			}
+			.add-header span{
+				cursor: pointer;
+			   	width: 40px;
+				height: 35px;
+			    float: right;
+			    position: relative;
+			    top: -28px;
+			}
+			.add-header img{
+				width: 40px;
+				height: 35px;
+			}
+			.add-body{
+				padding: 15px;
+			}
+			.form .form-line{
+				overflow: hidden;
+    			margin: 5px 0;
+			}
+			.form .form-line span{
+				color: red;
+			}
+			.add-body .form .form-line label{
+				cursor: pointer;
+			    width: 100px;
+			    display: block;
+			    float: left;
+			    text-align: right;
+			    margin-right: 10px;
+			    height: 30px;
+			    line-height: 30px;
+			    font-size: 14px;
+			}
+			.form .form-line .form-item{
+				padding: 0 5px;
+			    height: 30px;
+			    line-height: 30px;
+			    outline: none;
+			    margin-right: 10px;
+			}
+			.form .form-line .btn{
+				margin-left: 90px;
+			    height: 35px;
+			    font-size: 13px;
+				display: inline-block;
+			    padding: 0 20px;
+			    line-height: 35px;
+			    vertical-align: middle;
+			    border: none;
+			    background-color: #c60023;
+			    font-weight: 700;
+			    color: #fff;
+			    outline: none;
+			    cursor: pointer;
+			    text-decoration: none;
+			    margin-top: 10px;
+			}

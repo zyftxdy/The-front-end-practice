@@ -1,0 +1,344 @@
+			*{
+				margin: 0;
+				border: 0;
+				padding: 0;
+			}
+			div{
+				display: block;
+			}
+			a{
+				position: relative;
+				text-decoration:none;
+				color:#999;
+				margin-left: 10px;
+			}
+			ul li{list-style: none;}
+			a:hover{color: red;}
+			.top{
+				width: 100%;
+				height: 30px;
+			    margin: 0 auto;
+			    background-color:#eee;
+			    line-height: 30px;
+			    font-size: 14px;
+			}
+			.top p{
+				color:#999;
+				position: relative;
+				left: 5px;
+				line-height: 30px;
+				font-size: 14px;
+			}
+			.top p a{
+				position: relative;
+				left: 0px;
+				margin-left: 10px;
+			}
+			.top ul li{
+				list-style: none;
+			}
+			.top ul li a{
+				float: left;
+				position: relative;
+				top: -30px;
+				left: 950px;
+			}
+			.top ul li img{
+				width: 14px;
+				height: 14px;
+				position: relative;
+				top: 2px;
+				margin-right:5px;
+			}
+			.head{
+				width: 1160px;
+				position: relative;
+				margin: auto;
+			}		
+			.main{
+				background-color: #f6f6f6;
+				display: block;
+			}
+			.search-main{
+				position: relative;
+				width: 1160px;
+				height: 120px;
+				margin: auto;
+			}
+			.search-main p{
+				position: relative;
+			    left: 100px;
+			    top: 5px;
+			    width: 110px;
+			    font-size: 36px;
+			    color: #c60023;
+			}
+			.search{
+				width: 550px;
+				padding: 10px;
+			    border: 2px solid #c60023;
+			    font-size: 15px;
+			    outline: none;
+			    font-size: 15px;
+			    position: relative;
+			    top: -32px;
+			    left: 270px;
+			    text-decoration: none;
+			}
+			.search-main .submit{
+				position:relative;
+				left: 832px;
+				top: -73px;
+				display: block;
+    			height: 32px;
+    			width: 80px;
+    			vertical-align: top;
+    			border: none;
+    			background-color: #c60023;
+				text-align: center;
+				outline: none;
+				color: #fff;
+				font-size: 17px;
+                font-weight: 700;
+                padding-top: 10px;
+			}
+			.header-main{
+				width: 1160px;
+				margin: auto;
+			}
+			.list-main{
+			    float: left;
+			    padding: 10px 0;
+			    margin-right: 10px;
+			    background: #666;
+			    display: block;
+			    box-shadow: 5px 5px 5px #A8A5A5;
+			}
+			.list-main ul li{
+				position: relative;
+			    overflow: hidden;
+			    font-size: 14px;
+			    margin-top: 8px;
+			    margin-bottom: 4px;
+			}
+			.list-main ul li a{
+				width: 240px;
+				line-height: 35px;
+				font-weight: bold;
+			    color: #fff;
+			    text-decoration: none;
+			    display: block;
+			    position: relative;
+			    left: -5px;
+			}
+			.list-main ul li a p{
+				text-align: center;
+			}
+			.list-main ul li:hover{background-color: #999999;}
+			.list-main ul li a:hover{color: red;}
+			.center-main{
+				margin: auto;
+			}
+			.center-main .title hr{
+				position: relative;
+				top:-15px;
+				box-shadow: 0px 4px 5px #A8A5A5;
+			}
+			.center-main ul{
+				margin: 10px 15px 10px 10px;
+			}
+			.center-main ul li{
+			    position: relative;
+			    width: 200px;
+			    height: 220px;
+			    margin: 0px 10px 10px 10px;
+			    margin-left: 10px;
+			    float: left;
+			    cursor: pointer;
+			    background: #fff;
+			    transition: box-shadow .5s ease;
+			}
+			.center-main ul li:hover{
+				box-shadow: 1px 10px 10px #ddd;
+			}
+			ul li .list-title{
+			    width: 80px;
+			    position: relative;
+			    /* top: 0px; */
+			    left: 50px;
+			    color: #5e5e5e;
+			    margin: 5px 5px 5px 5px;				
+			}
+			ul li .list-img{
+			    position: relative;
+			    top:20px;
+			    left:35px;
+			    width: 120px;
+			    height: 120px;
+			    margin: 5px 5px 5px 5px;				
+			}
+			.center-main ul  li img{
+			    width: 120px;
+			    height: 120px;				
+			}			
+			.center-main a:hover{
+				color: #5e5e5e;
+			}
+			.tennis-main{
+				margin: auto;
+				width: 1160px;
+				margin-top: 15px;
+				display: inline-block;
+			}
+			.tennis-main .title p{
+				font-size: 25px;
+				text-decoration: none;
+				color:#d58717;
+				font-weight:bold;
+			}
+			.tennis-main .title span{
+				position: relative;
+				left: 35px;
+				top: -27px;
+				font-size: 25px;
+				color:#d58717;
+			}
+			.bird-main{
+				margin: auto;
+				width: 1160px;
+				margin-top: 10px;
+				display: inline-block;
+			}
+		    .bird-main .title p{
+				font-size: 25px;
+				text-decoration: none;
+				color:#3b838c;
+				font-weight:bold;
+			}
+			.bird-main .title span{
+				position: relative;
+				left: 35px;
+				top: -27px;
+				font-size: 25px;
+				color:#3b838c;
+			}
+			.basketball-main{
+				margin: auto;
+				width: 1160px;
+				margin-top: 10px;
+				display: inline-block;
+			}
+		    .basketball-main .title p{
+				font-size: 25px;
+				text-decoration: none;
+				color:#a93931;
+				font-weight:bold;
+			}
+			.basketball-main .title span{
+				position: relative;
+				left: 35px;
+				top: -27px;
+				font-size: 25px;
+				color:#a93931;
+			}			
+			.outdoors-main{
+				margin: auto;
+				width: 1160px;
+				margin-top: 10px;
+				display: inline-block;
+			}
+		    .outdoors-main .title p{
+				font-size: 25px;
+				text-decoration: none;
+				color:#488bad;
+				font-weight:bold;
+			}
+			.outdoors-main .title span{
+				position: relative;
+				left: 35px;
+				top: -27px;
+				font-size: 25px;
+				color:#488bad;
+			}			
+			.exercise-main{
+				margin: auto;
+				width: 1160px;
+				margin-top: 10px;
+				display: inline-block;
+			}
+			.exercise-main .title p{
+				font-size: 25px;
+				text-decoration: none;
+				color:#642663;
+				font-weight:bold;
+			}
+			.exercise-main .title span{
+				position: relative;
+				left: 35px;
+				top: -27px;
+				font-size: 25px;
+				color:#642663;
+			}
+			.bottom{
+				width:100%;
+				background-color: #f6f6f6;
+			}
+			.lianjie{
+				width: 1160px;
+				display: block;
+				margin: auto;
+			}
+			.bottom-lianjie{
+				padding-top: 20px;
+				text-align: center;
+				color: #888;
+			}
+			.bottom-lianjie a:hover{color: #D58717;}
+			.big-main{
+				width: 890px;
+				height: 364px;
+				display: block;
+				position: relative;
+				left: 265px;
+			}
+			.slideBox{
+					top: -364px;
+					width: 890px;
+					height:364px;
+					position: relative;
+					overflow: hidden;
+					/*box-shadow:2px 2px 10px #C38DD4;*/
+					}
+			.slideBox ul {
+				    position:relative;
+				    width:4500px;}	
+			.slideBox ul li{
+					float: left;
+				    width:890px;
+				    height:364px;
+				    position:relative;
+				}
+			.slideBox ul li a{
+				margin: 0;
+			}
+			.spanBox {
+				    position:relative;
+				    width:300px;
+				    height:20px;
+				    bottom:5px;
+				    left:405px;
+				}
+			.spanBox a {
+				    width:15px;
+				    height:15px;
+				    margin-left: 5px;
+				    margin-top: -14px;			    
+				    background-color:rgba(0,0,0,0.3);
+				    float:left;
+				    line-height:16px;
+				    text-align:center;
+				    border-radius: 10px;
+				}
+				.slideBox .spanBox .active {
+				    background-color: #DDDDDD;
+				}

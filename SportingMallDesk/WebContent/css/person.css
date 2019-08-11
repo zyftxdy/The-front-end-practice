@@ -1,0 +1,52 @@
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			div{
+				display: block;
+			}
+			 .panel{
+			    padding: 10px;
+			    margin-bottom: 10px;
+			    background: #fff;				
+			}
+			.panel-title{
+				padding: 10px;
+			    font-size: 16px;
+			    border-bottom: 1px solid #eee;
+			    color: #666;
+			    font-weight: 700;				
+			}
+			.panel-body{
+				padding: 10px 0;
+    			overflow: hidden;
+			}
+			.user-pro{
+				padding: 0 10px;
+			}
+			.user-pro .text-label{
+	    		display: inline-block;
+    			width: 80px;	
+    			font-size: 15px;		
+			}
+			.user-pro .text{
+			    margin-right: 20px;
+			    height: 30px;
+			    line-height: 30px;				
+			}
+			.user-pro .text-line a{
+				margin-top: 20px;
+				margin-left: 35px;
+			    line-height: 25px;
+			    font-size: 14px;
+			    padding: 2px 10px;
+			    margin-right: 10px;
+			    display: inline-block;
+			    height: 30px;
+			    border: none;
+			    background-color: #c60023;
+			    font-weight: 700;
+			    color: #fff;
+			    outline: none;
+			    cursor: pointer;
+			    text-decoration: none;
