@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery悬停按钮文字翻滚特效</title>
+<style type="text/css">
+	body {
+	  text-align: center;
+	  font-size: 18px;
+	  padding-top: 10em;
+	  background-color: #cd4646;
+	}
+	
+	.cta {
+	  background-color: #343434;
+	  display: inline-block;
+	  padding: 0.8em 3em 0.8em 3em;
+	  border-radius: 100px;
+	  font-family: "Raleway";
+	  box-shadow: 0px 5px 40px rgba(52, 52, 52, 0.6);
+	  color: white;
+	  text-decoration: none;
+	  font-size: 1.2em;
+	  overflow: hidden;
+	  backface-visibility: hidden;
+	  position: relative;
+	}
+	.cta:active {
+	  transform: translateY(3px);
+	}
+	
+	.btn-text-parent {
+	  position: relative;
+	  display: inline-block;
+	  overflow: hidden;
+	}
+	
+	.wrap_text {
+	  display: inline-block;
+	}
+	
+	.buildin-btn {
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  z-index: 9;
+	  width: 100%;
+	  transform: translateY(100%);
+	}
+	.buildin-btn .btn-letter {
+	  opacity: 0;
+	}
+	
+	.btn-letter {
+	  display: inline-block;
+	  margin: 0em 0.05em;
+	  position: relative;
+	  transition: transform 300ms, opacity 300ms ease;
+	  /*transition: [property] [duration] [ease] [delay];
+                	变化属性       变化时间         曲线       延时*/
+	}
+	.cta:hover .current-btn .btn-letter {
+	  opacity: 0;
+	  transform: translateY(-100%);
+	}
+	.cta:hover .buildin-btn .btn-letter {
+	  opacity: 1;
+	  transform: translateY(-100%);
+	}
+</style>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var cta = $('.cta');
+		var btnText = cta.text();
+		var splitText = btnText.split("");
+		cta.html("").append("\n\t\t\t\t<span class=\"btn-text-parent\">\n\t\t\t\t\t<span class=\"wrap_text current-btn\"></span>\n\t\t\t\t\t<span class=\"wrap_text buildin-btn\"></span>\n\t\t\t\t</span>\n\t\t\t");
+	    var sp = 49;
+		for (var _i = 0; _i < splitText.length; _i++) {
+			cta.
+			find(".wrap_text").
+			append("<span class=\"btn-letter\">" + splitText[_i] + "</span>");
+			$('.current-btn .btn-letter:nth-child('+(_i+1)+')').css({'transition-delay':sp+'ms'});
+			$('.buildin-btn .btn-letter:nth-child('+(_i+1)+')').css({'transition-delay':sp+'ms'});
+			sp = sp+50;
+		}
+	});
+</script>
+</head>
+<body>
+ <a href="#" class="cta">我是大傻逼</a>
+</body>
+</html>
