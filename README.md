@@ -11,3 +11,7 @@
 6.商品管理;<br/>
 7.订单管理;<br/>
 8.admin超级管理员对其他管理员的权限管理。<br/>
+## 技术栈
+* js、jquery、ajax
+* jdbc、mvc
+* java
