@@ -16,6 +16,6 @@
 * jdbc、mvc
 * java
 ## 项目截图
-![](http://118.31.2.17/code.png)
+![](https://github.com/zyftxdy/The-front-end-practice/images/printscreen/1.png)
 ## 作者
 > zyftxdy
