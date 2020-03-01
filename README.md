@@ -17,13 +17,6 @@
 * java
 ## 项目截图
 ![](http://118.31.2.17/printscreen/1.png)
-![](http://118.31.2.17/printscreen/2.png)
-![](http://118.31.2.17/printscreen/3.png)
-![](http://118.31.2.17/printscreen/4.png)
-![](http://118.31.2.17/printscreen/5.png)
-![](http://118.31.2.17/printscreen/6.png)
-![](http://118.31.2.17/printscreen/7.png)
-![](http://118.31.2.17/printscreen/8.png)
-![](http://118.31.2.17/printscreen/9.png)
+
 ## 作者
 > zyftxdy
