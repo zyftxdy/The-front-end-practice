@@ -16,7 +16,7 @@
 * jdbc、mvc
 * java
 ## 项目截图
-![](http://118.31.2.17/printscreen/1.png)
+![](http://118.31.2.17/printscreen/8.png)
 
 ## 作者
 > zyftxdy
